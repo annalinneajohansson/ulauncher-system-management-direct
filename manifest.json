@@ -8,11 +8,11 @@
   "icon": "icon.svg",
   "preferences": [
     {
-      "id": "lock-screen",
+      "id": "kill-session",
       "type": "keyword",
-      "name": "Lock Screen",
-      "default_value": "Lock Screen",
-      "description": "Lock your screen"
+      "name": "Logout",
+      "default_value": "Logout",
+      "description": "Log out"
     },
     {
       "id": "restart",
