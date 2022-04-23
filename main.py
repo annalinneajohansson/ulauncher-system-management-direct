@@ -28,8 +28,6 @@ class KeywordQueryEventListener(EventListener):
     if id == 'kill-session':
       subprocess.Popen(['loginctl', 'kill-session self'])
     if id == 'suspend':
-      subprocess.Popen(['systemctl', 'suspend', '-i'])
-    if id == 'shutdown':
       subprocess.Popen(['systemctl', 'poweroff', '-i'])
     if id == 'restart':
       subprocess.Popen(['systemctl', 'reboot', '-i'])
